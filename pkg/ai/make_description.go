@@ -19,9 +19,9 @@ func MakeDescription(gitDiff string, apiKey string) string {
 			{
 				Role: "system",
 				Content: "You are an excellent engineer. " +
-					"Please create a pull request description in Japanese for the git diff " +
-					"I'm about to give you." +
+					"Please create a pull request description in Japanese for the git diff I'm about to give you." +
 					"However, the format should be markdown and the following items should be chaptered as H2 tags." +
+					"MRタイトル," +
 					"概要," +
 					"本MR前の問題点," +
 					"本MRでの対応方法,",
